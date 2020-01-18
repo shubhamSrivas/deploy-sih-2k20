@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../App.css";
-import sih from '../images/sih3.jpg';
+import sih from '../images/sih3.png';
 
 let max_offset, initial_offset;
 class Home extends Component {
