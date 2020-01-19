@@ -16,6 +16,7 @@ class App extends Component {
     this.state = {
       header: false,
       s: false,
+      elevation: 15.70795,
       imgUrl: '',
       preUrl: '',
     };
@@ -56,6 +57,7 @@ class App extends Component {
   }
   render(){
     const getUploadParams = ({ meta }) => {
+      // const url="https://httpbin.org/post";
       const url = "http://34.69.240.165:5000/upload";
       const f = `${url}/${encodeURIComponent(meta.name)}`;
       // console.log(formData);
@@ -86,13 +88,12 @@ class App extends Component {
     }
     const handleSubmit = (files, allFiles) => {
       
-      (files.map(f => this.setState({imgUrl:JSON.parse(f.xhr.response).segmentedImagePath,s:true})));
+      (files.map(f => this.setState({imgUrl:JSON.parse(f.xhr.response).segmentedImagePath,
+        s:true})));
       allFiles.forEach(f => f.remove());
-        // console.log(response);
-        const {preUrl} =this.state;
-      this.setState({imgUrl: preUrl,s:true});
+        console.log(JSON.parse(files[0].xhr.response));
     };
-  const { imgUrl,s } = this.state;
+  const { imgUrl,s,elevation } = this.state;
   return (
     <div className="App">
         <StarfieldAnimation
@@ -112,7 +113,7 @@ class App extends Component {
     />
   }
     {s&&<img src={imgUrl} alt=""className="resultImg"/>}
-    <div className="dummy"></div>
+    <div className="dummy"> {s&&<h1 className="elevation">Angle of Elevation : {elevation}</h1>} </div>
     </div>
   );
   }

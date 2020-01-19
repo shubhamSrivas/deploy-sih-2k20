@@ -39,9 +39,10 @@
   top:150vh;
   min-height: 25vh;
   min-width: 60vw;
+  padding-top: 30px;
 }
 .dzu-inputLabel{
-  width: 60vw;
+  width: 58vw;
   height: 50vh;
   background-color: white;
 }
@@ -83,7 +84,7 @@ body{
   }
   .resultImg{
     position: absolute;
-    top: 150vh;
+    top: 100vh;
     height: 50vh;
     width: 50vw;
     border: 20px solid gray;
@@ -98,4 +99,14 @@ body{
     left: 60px;
     z-index: 1035;
   }
-  
+  .elevation{
+    color: white;
+  }
+  @media only screen and (max-width: 600px) {
+    .dzu-dropzone {
+      border: 5px solid gray;
+    }
+    .dzu-inputLabel{
+      width: 57vw;
+    }
+  }
