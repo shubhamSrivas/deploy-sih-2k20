@@ -6,7 +6,6 @@ import 'react-dropzone-uploader/dist/styles.css';
 import StarfieldAnimation from 'react-starfield-animation';
 import Axios from 'axios';
 import './App.css';
-import sih from './images/sih3.jpg';
 
 let max_offset,initial_offset;
 
