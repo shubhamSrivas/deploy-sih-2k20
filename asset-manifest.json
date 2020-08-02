@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/deploy-sih-2k20/static/css/main.e6881a75.chunk.css",
+    "main.js": "/deploy-sih-2k20/static/js/main.e47a2b43.chunk.js",
+    "main.js.map": "/deploy-sih-2k20/static/js/main.e47a2b43.chunk.js.map",
+    "runtime-main.js": "/deploy-sih-2k20/static/js/runtime-main.1ffef294.js",
+    "runtime-main.js.map": "/deploy-sih-2k20/static/js/runtime-main.1ffef294.js.map",
+    "static/css/2.44d09fed.chunk.css": "/deploy-sih-2k20/static/css/2.44d09fed.chunk.css",
+    "static/js/2.48744689.chunk.js": "/deploy-sih-2k20/static/js/2.48744689.chunk.js",
+    "static/js/2.48744689.chunk.js.map": "/deploy-sih-2k20/static/js/2.48744689.chunk.js.map",
+    "index.html": "/deploy-sih-2k20/index.html",
+    "precache-manifest.64ff69721a781d859ff2b85b5afe5c64.js": "/deploy-sih-2k20/precache-manifest.64ff69721a781d859ff2b85b5afe5c64.js",
+    "service-worker.js": "/deploy-sih-2k20/service-worker.js",
+    "static/css/2.44d09fed.chunk.css.map": "/deploy-sih-2k20/static/css/2.44d09fed.chunk.css.map",
+    "static/css/main.e6881a75.chunk.css.map": "/deploy-sih-2k20/static/css/main.e6881a75.chunk.css.map",
+    "static/js/2.48744689.chunk.js.LICENSE": "/deploy-sih-2k20/static/js/2.48744689.chunk.js.LICENSE",
+    "static/media/sih3.png": "/deploy-sih-2k20/static/media/sih3.777cd160.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ffef294.js",
+    "static/css/2.44d09fed.chunk.css",
+    "static/js/2.48744689.chunk.js",
+    "static/css/main.e6881a75.chunk.css",
+    "static/js/main.e47a2b43.chunk.js"
+  ]
+}
